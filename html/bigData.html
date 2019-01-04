@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>大数据图表</title>
+    <link rel="stylesheet" href="../css/bigData.css">
+</head>
+<body>
+    <div class="bodyBox">
+        <div class="leftBox">
+            <div class="box">
+                <div class="leftTopBox">
+                    <div>当前比对数据</div>
+                    <h2>3,456,789</h2>
+                </div>
+                <div class="leftMiddleBox">
+                    <div>违法犯罪人员分析</div>
+                    <div id="chart"></div>
+                </div>
+                <div class="leftBottomBox">
+                    <div>人口出入记录</div>
+                    <div class="table">
+                        <table border="1 solid #0e94ea" cellpadding="0" cellspacing="0">
+                            <tr height="30px;" style="background:#114e7b;color:#cdddf7">
+                                <th width="100">姓名</th>
+                                <th width="65">角色</th>
+                                <th width="100">开门方式</th>
+                                <th width="80">时间</th>
+                            </tr>
+                            <tr  style="text-align:center;color:#cdddf7">
+                                <td>张梦</td>
+                                <td>访客</td>
+                                <td>人脸</td>
+                                <td>2018-11-01 13:51:23</td>
+                            </tr>
+                            <tr style="text-align:center;color:#cdddf7">
+                                <td>张梦</td>
+                                <td>访客</td>
+                                <td>APP</td>
+                                <td>2018-11-01 13:51:23</td>
+                            </tr>
+                            <tr style="text-align:center;color:#cdddf7">
+                                <td>张梦</td>
+                                <td>访客</td>
+                                <td>人脸</td>
+                                <td>2018-11-01 13:51:23</td>
+                            </tr>
+                             <tr style="text-align:center;color:#cdddf7">
+                                <td>张梦</td>
+                                <td>访客</td>
+                                <td>APP</td>
+                                <td>2018-11-01 13:51:23</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="imgs">
+                <img src="../img/line_img.png" alt="">
+            </div>
+        </div>
+        <div class="middleBox">
+            <div>
+                <img src="../img/jinghui.png" alt="">
+                <span>智慧社区内网比对平台</span>
+            </div>
+            <div>
+                <img style="width:100%;margin-left:10px; margin-top:-40px" src="../img/title_border.png" alt="">
+            </div>
+                <div class="time">
+                    <div class="time1">
+                        <div class="timeDate">
+                            <p style="font-size:30px;">17:25:34</p>
+                            <div>2019/1/2pm 周3</div>
+                        </div>
+                        <div class="one">
+                            <div>
+                                <img src="../img/sun.png" alt="">
+                            </div>
+                            <div>
+                                <p>多云</p>
+                                <p>16~22C</p>
+                                <p>天津市和...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="imgs">
+                        <img src="../img/line_bg.png" alt="">
+                    </div>
+                    <div class="data">
+                        <p style="color:#ffff00">NO.1北京：2543289人</p>
+                        <p style="color:#7fff00"> NO.1天津： 5690人</p>
+                        <p style="color:#7fdc8e">NO.1河北： 456人</p>
+                    </div>
+                </div>
+            <div id="map"></div>
+            
+            
+
+        </div>
+        <div class="leftBox rightBox">
+            <div class="imgs">
+                <img src="../img/line_img.png" alt="">
+            </div>
+            <div class="charts">
+                <div class="leftMiddleBox">
+                    <div>违法犯罪人员年龄分布</div>
+                    <div id="oneChart"></div>
+                </div>
+                <div class="leftMiddleBox">
+                    <div>违法犯罪人员地区分布</div>
+                    <div id="twoChart"></div>
+                </div>
+                <div class="leftMiddleBox">
+                    <div>人口出入时间段统计</div>
+                    <div id="threeChart"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
+<script src="../js/echarts.js"></script>
+<script src="../js/bigData.js"></script>
+<script src="../js/map.js"></script>
+<script src="../js/dateTime.js"></script>
+<script src="../js/oneChart.js"></script>
+<script src="../js/twoChart.js"></script>
+<script src="../js/threeChart.js"></script>
+
+

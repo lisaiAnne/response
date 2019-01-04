@@ -1,0 +1,143 @@
+.bigBox{
+    width:100%;
+    margin-top:20px;
+    display: flex;
+}
+.leftSmallBox{
+    width:27%;
+    height:100%;
+    padding-left:30px;
+    padding-right:30px;
+
+}
+.leftSmallBox .one{
+    width:100%;
+    height:32px;
+    font-size:14px;
+    line-height:32px;
+    text-align: center;
+    margin-bottom:12px;
+    border:1px solid #03a9f3;
+}
+.leftSmallBox .one a{
+    color:#03a9f3;
+}
+.uls li{
+    display: flex;
+    width:100%;
+    height:40px;
+    background:#e8e8e9;
+    border-bottom:1px solid #cccccc; 
+}
+.uls li img{
+   width:13px;
+   height:14px;
+   margin:19px 7px 7px 15px;
+}
+.uls li a{
+    padding-top:16px;
+   font-size:14px;
+   color:#353338;
+ }
+
+.rightSmallBox{
+    width:73%;
+    height:100%;
+    padding-left:35px;
+    padding-right:35px;
+    margin-right:24px;
+    background:white;
+    font-size:14px;
+    color:#878686
+}
+.first{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    padding-top:33px;
+    padding-bottom:20px;
+    border-bottom:1px solid #f1f1f1;
+
+}
+.first span:first-child{
+    color:black;
+}
+.second{
+    height:44px;
+    line-height:44px;
+    border-bottom:1px solid #f1f1f1;
+}
+.third p:first-child{
+    line-height:35px;
+    padding-bottom:15px;
+}
+.third p:nth-child(2){
+    line-height:20px;
+    padding-bottom:10px;
+}
+.third p:nth-child(3){
+    line-height:20px;
+    padding-bottom:14px;
+    border-bottom:1px solid #f1f1f1;
+}
+.fourFirst{
+    line-height:40px;
+}
+.fourFirst a{
+    color:#0781b7;
+}
+.picture{
+    display: flex;
+    padding-bottom:15px;   
+    border-bottom:1px solid #f1f1f1;
+}
+.picture div img{
+    display:block;
+    margin-right: 10px;
+}
+.five{
+    padding-top:22px;
+    padding-bottom:34px;
+}
+
+.five a{
+  color:#337ab7;
+}
+.five img:nth-child(3){
+    padding-left:28px;
+}
+footer{
+    margin-top:75px;
+}
+
+/* 媒体查询 */
+@media screen and (max-width:1000px){
+    .bigBox{
+        width:100%;
+        flex-wrap: wrap;
+    }
+    .leftSmallBox,.rightSmallBox{
+        width:100%;
+        margin-left:15px;
+        margin-right:15px;
+    }
+    .first span:first-child{
+        white-space: nowrap;
+    }
+    .picture{
+        width:100%;
+        flex-wrap: wrap;
+    }
+    .picture div{
+        width:100%;
+    }
+}
+@media screen and (max-width:800px){
+    .picture{
+        flex-wrap: nowrap;
+    }
+    .picture div{
+        width:31%;
+        justify-content: flex-start;
+    }
+}

@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+	margin:0;
+	padding:0;
+}
+body,html{
+    width:100%;
+    height:100%;
+}
+body{
+	font-family: "微软雅黑",Arial;
+	background: #ebebeb;
+    background-image: url(../img/index_bg.png);
+    overflow-y: hidden;
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border: 0;
+}
+a{
+	text-decoration: none;
+}
+.bodyBox{
+    width:100%; 
+    height:100%;
+    display:flex;
+}
+/* leftBox */
+.leftBox{
+    width:28%; height:100%;
+    display: flex;
+}
+.leftBox .box{
+    width:99.5%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+.leftTopBox{
+    width:100%;
+    height:19%;
+    background-image: url(../img/border_bg01.png);
+    background-size:100%;
+    margin:14px 5px;
+}
+.leftTopBox div{
+    width:100%;
+    color:#0e94ea;
+    font-size:14px;
+    margin-top:20px;
+    margin-bottom:20px;
+    text-align: center;
+    color: #0e94ea;
+    font-weight: 900;
+}
+.leftTopBox h2{
+    text-align: center;
+    color: white;
+    font-size:30px;
+}
+.leftBox .imgs{
+    width:.5%;
+}
+.leftMiddleBox{
+    width:100%;
+}
+.leftMiddleBox div:first-child{
+    width:91%;
+    height:32px;
+    margin:15px 5px;
+    background-image: url(../img/box_title.png) no-repeat;
+    background-size:100%;
+    color:white;
+    font-size:14px;
+    padding-left:30px;
+    line-height:32px;
+}
+#chart{
+    width:388px;
+    height:260px;
+}
+.leftBottomBox{
+    width:100%;
+}
+.leftBottomBox div:first-child{
+    width:91%;
+    height:32px;
+    margin:15px 5px;
+    background-image: url(../img/box_title.png);
+    background-size:100%;
+    color:white;
+    font-size:14px;
+    padding-left:30px;
+    line-height:32px;
+}
+
+/* middleBox */
+.middleBox{
+    width:44%;
+}
+.middleBox div:first-child{
+    display: flex;
+    justify-content: center;
+    margin-top:8px;
+    margin-bottom:8px;
+}
+.middleBox div:first-child img{
+    width:55px;
+    height:55px;
+}
+.middleBox div:first-child span{
+    color:#cdddf7;
+    margin-top:10px;
+    font-size:26px;
+
+}
+.time{
+     display: flex;
+     width:100%;
+}
+.time1{
+    display: flex;
+    width:307px;
+    height:82px;
+    border:1px solid #0e94ea; 
+    margin-left:24px;
+    margin-top:20px;
+}
+.timeDate{
+    flex-wrap: wrap;
+    width:165px;
+    height:49px;
+    border-right:1px solid #cdddf7;
+    color:#cdddf7;
+
+}
+.one{
+    width:143px;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    font-size:12px;
+}
+.one div:nth-child(1) img{
+    width:76px;
+    height:60px;
+    margin-top:3px;
+    margin-left:8px;
+    
+}
+.one div:nth-child(2){
+    margin-top:10px;
+    
+}
+.time .imgs img{
+    height:82px;
+    margin-top:10px;
+    margin-left:15px;
+    margin-right:15px;
+}
+.data{
+    font-size:12px;
+    font-weight:600;
+    margin-top:30px;
+}
+#map{
+    width:100%;
+    height:100%;
+}
+/* rightBox */
+.rightBox{
+    width:28%;
+}
+.charts{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+.charts .leftMiddleBox:first-child{
+    height:40%;
+}
+.charts .leftMiddleBox:nth-child(2){
+    height:30%;
+}
+#oneChart{
+    width:100%;
+    height:100%;
+}
+#twoChart{
+    width:100%;
+    height:200px;
+}
+#threeChart{
+    width:100%;
+    height:160px;
+}
+.charts .leftMiddleBox:last-child{
+    height:30%;
+}
+.charts .leftMiddleBox div:first-child{
+    width:91%;
+    height:32px;
+    margin:15px 5px;
+    background-image: url(../img/box_title.png) no-repeat;
+    background-size:100%;
+    color:white;
+    font-size:14px;
+    padding-left:30px;
+    line-height:32px;
+    margin-top:0;
+}

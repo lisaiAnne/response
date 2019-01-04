@@ -1,0 +1,111 @@
+.formBox{
+    margin-top:20px;
+    margin-left:15px;
+    margin-right:15px;
+    background:white;
+    padding-left:20px;
+    padding-right:50px;
+}
+.formBox h5{
+    line-height:60px;
+    margin-bottom:15px;
+}
+.formBox .lis{
+    width:100%;
+    height:52px;
+    display: flex;
+    align-items: center;
+}
+.formBox .lis div:first-child{
+    width:25%;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align:right;
+    padding-right:30px;
+}
+.formBox .lis div:first-child span:nth-child(2){
+    color:#f05a55;
+    font-size:14px;
+    margin-left:5px;
+}
+.one{
+    width:75%;
+}
+.one input{
+    width: 100%;
+    height:32px;
+    outline:none;
+    padding-left:15px;
+    border:1px solid #c5bebe;
+}
+.one ::-webkit-input-placeholder{
+  color:#9999a5;
+}
+div lable{
+    color:#878686;
+    font-size:14px;
+    display: inline-block;
+    width:90%;
+}
+
+#one{
+    width: 102%;
+    height:32px;
+    outline:none;
+    padding-left:15px;
+    border:1px solid #c5bebe;
+    color:#555555;
+}
+.once span:nth-child(1){
+    display:inline-block;
+    width:15px;
+    height:15px;
+    border:1px solid #c0bfbf;
+}
+.once span:nth-child(2){
+    color:#8e8d8d;
+}
+#first{
+    color:white;
+    width:73px;
+    height:34px;
+    padding:0;
+    background:#03a9f3;
+}
+/* 文本域 */
+.lis1{
+    width:100%;
+    display: flex;
+}
+.tens{
+    width:26%;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: right;
+    margin-right:15px;
+}
+.tens span{
+    margin-right:15px;
+    color:#f05a55;
+    font-size:14px;
+    margin-left:5px
+}
+.twey{
+    width:73%;
+}
+.twey textarea{
+    width:102%;
+    height:292px;
+    resize: none;
+    font-size:14px;
+}
+textarea::-webkit-input-placeholder {
+     color:#999999;
+  }
+footer{
+    margin-top:75px;
+}
+
+
+/* 媒体查询 */
+  

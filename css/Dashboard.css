@@ -1,0 +1,363 @@
+
+/* shuju */
+.shuJu{
+    width:100%;
+    margin-top:20px;
+    margin-bottom:30px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.tatalSale{
+    height:93px;
+    width:22%;
+    background:white;
+}
+.topBox{
+    display: flex;
+    margin-top:15px;
+    margin-left:10px;
+    margin-right:28px;
+    justify-content: space-between;
+    align-items: center;
+}
+.topBox img{
+    width:30px;
+    height:30px;
+}
+.smallTopBox p:first-child{
+    font-size:18px;
+    color:#3e3b3b;
+}
+.smallTopBox p:nth-child(2){
+    font-size:14px;
+    color:#727d9c;
+
+}
+.tiao{
+    height:5px;
+    display: flex;
+    margin-top:15px;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius:2px;
+    background:#e1e1e1;
+}
+
+/* charts */
+.charts{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+}
+.middleBox{
+    width:47%;
+    height:364px;
+    display: flex;
+    background:white;
+}
+#leftCharts{
+    width:100%;
+    height:360px;
+    display: flex;
+}
+#rightCharts{
+    width:100%;
+    height:360px;
+    display: flex;
+}
+/* chart */
+.chart{
+    width:100%;
+    margin-top:30px;
+    margin-bottom:33px;
+    display:flex;
+    justify-content: space-around;
+}
+.inBox{
+    width:28%;
+    height:410px;
+    overflow-y:auto;
+    padding-left:20px;
+    display: flex;
+    flex-direction: column;
+    background:white;
+}
+.head{
+    height:60px;
+}
+.context{
+    overflow-x:hidden;
+    overflow: auto;
+    width:100%;
+    flex:1; 
+}
+.foot{
+    width:100%;
+    height:20px;
+}
+.inBox h4{
+    /* font-size:14px; */
+    margin-top:24px;
+    margin-bottom:8px;
+}
+.ones{
+    display:flex;
+    width:100%;
+    height:80px;
+    align-items: center;
+    border-bottom:1px solid #efefef;
+}
+.ones img{
+    width:50px;
+    height:50px;
+}
+.once{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    margin-right:15px;
+}
+.two {
+    margin-left:10px;
+}
+.two h5{
+    font-size:14px;
+    font-weight:100;
+}
+.two p{
+    font-size:14px;
+    color:#7e7c7c;
+}
+.ones span{
+    font-size:16px;
+    color:#7d7979;
+}
+/* chat */
+.chat{
+    width:28%;
+    display: flex;
+    padding-right:10px;
+    height:410px;
+    background:white;
+}
+.txt{
+    width:100%;
+    display: flex;
+    margin-bottom:20px;
+    justify-content: space-between;
+}
+.txt img{
+    width:50px;
+    height:50px;
+}
+.divTxt{
+    margin-left:10px;
+    padding-left:10px;
+    line-height:20px;
+    padding-bottom:10px;
+    padding-top:10px;
+    font-size:14px;
+    color:#b89d8f;
+    background:#f0f0f0;
+}
+.divTxt1{
+    background:#03a9f3;
+    margin-right:10px;
+    color:white;
+
+}
+.foot1{
+    height:60px;
+    display: table-cell;
+    padding-top:10px;
+    display: flex;
+}
+#test{
+    /* width:263px; */
+    width:100%;
+    height:33px;
+    padding-left:10px;
+    font-size:14px;
+    outline:none;
+}
+#btn{
+    width:58px;
+    height:37px;
+    font-size:14px;
+    margin-right:20px;
+    background:#03a9f3;
+    color:white;
+    border:0;
+}
+/* latest */
+.latest{
+    width:28%;
+    display: flex;
+    height:410px;
+    padding-left:0;
+    padding-right:10px;
+    background:white;
+}
+.latest h4{
+    padding-left:20px;
+}
+.list{
+    width: 100%;
+    padding-right:10px;
+}
+.lis{
+    width:100%;
+    height:74px;
+    padding-top: 6px;
+}
+.bigBox{
+    display: flex;
+}
+.just{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+.just h5{
+    FONT-SIZE:16px;
+    font-weight:100;
+}
+.just p,.tent{
+    color:#9686a4;
+    font-size:14px;
+}
+/* tableBox */
+.tableDiv{
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:50px;
+    margin-left:15px;
+    margin-right:20px;
+    margin-bottom:75px;
+    background:white;
+}
+.divH2 h2{
+    color:#3e526d;
+    font-size:16px;
+    height:58px;
+    line-height:58px;
+}
+.tableBox tr:first-child{
+    width:100%;
+}
+.tableBox tr:first-child td{
+    height:37px;
+    line-height:37px;
+    color:#6b6a6a;
+    font-size:14px;
+    font-weight:600;
+    border-top:none;
+    border-bottom:1px solid #dddddd;
+}
+
+.tableBox tr td{
+    border-top:1px solid #dddddd;
+}
+
+.tableBox tr td:first-child{
+    wridth:4%;
+}
+.tableBox tr td:nth-child(2){
+    width:22%;
+}
+.tableBox tr td:nth-child(3){
+    width:14%;
+}
+.tableBox tr td:nth-child(4){
+    width:17%;
+}
+.tableBox tr td:nth-child(5){
+    width:18%;
+}
+.tableBox tr td:nth-child(6){
+    width:11%;
+}
+
+.tableBox .ten{
+   font-size:14px;
+   height:30px;
+   line-height:30px;
+   color:#8795b3;
+}
+
+.tableBox .ten td:nth-child(5) img{
+    width:100px;
+    height:22px;
+    margin-top:10px;
+}
+
+/* 媒体查询 */
+@media screen and (max-width:1000px){
+
+    .shuJu{
+        width:99%;
+        flex-wrap: wrap;
+    }
+    .tatalSale{
+        width:47%;
+    }
+    .tatalSale:nth-child(3),.tatalSale:nth-child(4){
+        margin-top:30px;
+    }
+    .charts{
+        width:98%;
+        flex-wrap: wrap;
+    }
+    .middleBox{
+        width:100%;
+        margin-left:15px;
+    }
+    .middleBox:nth-child(2){
+        margin-top:30px;
+    }
+    .chart{
+        width:98%;
+        flex-wrap: wrap;
+    }
+    .inBox{
+        width:100%;
+        margin-left:15px;
+
+    }
+    .inBox:nth-child(3){
+        margin-top:30px;
+    }
+    .chat .divTxt{
+        display: flex;
+        width:100%;
+        align-items: center;
+    }
+    .bigBox{
+        width:100%;
+    }
+    .latest .lis{
+        width:100%;
+    }
+
+}
+@media screen and (max-width:800px){
+    .shuJu{
+        width:99%;
+        flex-wrap: wrap;
+    }
+    .tatalSale{
+        width:100%;
+        margin-left:15px;
+    }
+    .tatalSale:nth-child(2){
+        margin-top:30px;
+    }
+
+
+    
+}
+
+
+
+

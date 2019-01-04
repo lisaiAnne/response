@@ -1,0 +1,36 @@
+.chart{ 
+    display: flex;
+    margin-top:20px;
+    width:100%;
+    justify-content: space-around;
+}
+.leftFirst{
+    width:48%;
+    height:400px;
+    display: flex;
+    margin-left:15px;
+    margin-right:15px;
+    background:white;
+}
+#leftFirst,#rightFirst,#bottomLeft,#bottomRight{
+    width:100%;
+    height:360px;
+    display: flex;
+}
+.charts{ 
+    margin-top:30px;
+    margin-bottom:75px;
+    display: flex;
+}
+@media screen and (max-width:1000px){
+   .chart{
+       width:100%;
+       flex-wrap: wrap;
+   }
+   .chart .leftFirst:last-child{
+        margin-top:30px;
+   }
+   .leftFirst{
+       width:100%;
+   }
+}
